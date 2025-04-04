@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/static/js/main.cdb48fb4.chunk.js",
+    "main.js.map": "/static/js/main.cdb48fb4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e6f80049.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e6f80049.js.map",
+    "static/js/2.f66e64a0.chunk.js": "/static/js/2.f66e64a0.chunk.js",
+    "static/js/2.f66e64a0.chunk.js.map": "/static/js/2.f66e64a0.chunk.js.map",
+    "static/js/3.5680addc.chunk.js": "/static/js/3.5680addc.chunk.js",
+    "static/js/3.5680addc.chunk.js.map": "/static/js/3.5680addc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.f66e64a0.chunk.js.LICENSE.txt": "/static/js/2.f66e64a0.chunk.js.LICENSE.txt",
+    "static/media/featured3.e62492ae.jpg": "/static/media/featured3.e62492ae.jpg",
+    "static/media/kebab-3.82d2c748.png": "/static/media/kebab-3.82d2c748.png",
+    "static/media/product-1.0812f6fc.jpg": "/static/media/product-1.0812f6fc.jpg",
+    "static/media/product-2.2c76dbdc.jpg": "/static/media/product-2.2c76dbdc.jpg",
+    "static/media/product-3.f10cc721.jpg": "/static/media/product-3.f10cc721.jpg",
+    "static/media/sweet-2.d5cf1ad2.jpg": "/static/media/sweet-2.d5cf1ad2.jpg",
+    "static/media/sweet-3.badeecbe.jpg": "/static/media/sweet-3.badeecbe.jpg",
+    "static/media/sweet3.c495c742.jpg": "/static/media/sweet3.c495c742.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6f80049.js",
+    "static/js/2.f66e64a0.chunk.js",
+    "static/js/main.cdb48fb4.chunk.js"
+  ]
+}
