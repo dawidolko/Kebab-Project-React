@@ -1,94 +1,108 @@
-# Kebab House
+# 🌯 Kebab House Website (React, JavaScript, SCSS)
 
-![Full Screen Screenshot](src/images/full-screen.png)
+> **Case:** Build a fully responsive, modern online menu and shopping experience for a kebab restaurant. Focus on an intuitive design, dynamic interactions, and seamless cart functionality.
 
-## Project Description
+> **Tech Stack:** `React`, `JavaScript (ES6+)`, `CSS3`, `SCSS/SASS`, `Git`.
 
-**Kebab House Website** is a modern, responsive frontend project built with **React**, **JavaScript**, **CSS**, and **SCSS/SASS** technologies. This website offers users an engaging platform to browse delicious kebab meals, explore menu categories, and enjoy an interactive shopping experience with cart functionality and product details.
+---
 
-The site delivers a stylish and user-friendly interface, optimized for performance across all devices – perfect for kebab lovers craving convenience and flavor.
+## 🚀 Usage
 
-## Availability
+### Running the Project Locally
 
-The website is available at: [kebab.dawidolko.pl](https://kebab.dawidolko.pl)
-
-## Features
-
-- **Interactive Menu Shop**:
-
-  - Browse a variety of kebab meals including classic wraps, plates, vegetarian options, and extras.
-  - Each menu item includes a detailed description, price, and image.
-  - Dynamic cart functionality with real-time updates and intuitive UX.
-
-- **Food Services**:
-
-  - Explore meal categories, view item details, and navigate smoothly between sections.
-  - Optional: Add-ons like sauces, drinks, or combo offers.
-
-- **Responsive Design**:
-
-  - Optimized for mobile, tablet, and desktop devices for consistent performance.
-
-- **Dynamic Frontend**:
-
-  - Includes category filters, product search, and interactive call-to-action buttons.
-
-- **Aesthetic User Interface**:
-  - Styled with **SCSS/SASS**, providing organized and reusable CSS modules for a clean and modern look.
-
-## Technologies
-
-- **React**: For building a dynamic and interactive user interface.
-- **CSS3 / SCSS / SASS**: For modern and responsive styling.
-- **JavaScript (ES6+)**: For dynamic and client-side functionality.
-- **Git**: For version control and project collaboration.
-
-## Directory Structure Project
-
-```plaintext
-├── public/           # Public files
-├── src/              # Source code
-│   ├── assets/       # Images and static assets
-│   ├── components/   # React components
-│   ├── pages/        # Page components
-│   ├── styles/       # Global and modular SCSS styles
-│   └── App.js        # Main application entry point
-├── package.json      # Project metadata and dependencies
-└── README.md         # Project documentation
-```
-
-## How to Run the Project Locally?
-
-1. Clone the repository:
+- Clone the repository:
 
 ```bash
 git clone https://github.com/dawidolko/Kebab-Project-React.git
-```
-
-2. Navigate to the project directory:
-
-```bash
 cd Kebab-Project-React
 ```
 
-3. Install dependencies:
+- Install project dependencies:
 
 ```bash
 npm install
 ```
 
-4. Start the development server:
+- Start the development server:
 
 ```bash
 npm start
 ```
 
-5. Open the site in your browser at `http://localhost:3000`.
+- Open the application in your browser at [http://localhost:3000](http://localhost:3000)
 
-## Author
+---
 
-The website was created by **Dawid Olko** as part of the **Kebab House** project.
+## 📈 Features
 
-## License
+- **Interactive Menu Shop:**
+  - Browse a wide selection of kebab meals: wraps, plates, vegetarian options, sides, and extras.
+  - View detailed descriptions, prices, and images for each meal.
+  - Add products to a dynamic cart with real-time updates.
 
-This project is released under the MIT license. Details are available in the `LICENSE` file.
+- **Food Services Section:**
+  - Organized by categories with smooth navigation between them.
+  - Additional options like drinks, sauces, and combo meals.
+
+- **Responsive Design:**
+  - Fully optimized for mobile, tablet, and desktop browsing.
+
+- **Dynamic Frontend Experience:**
+  - Category filters, search functionality, and dynamic buttons for better user engagement.
+
+- **Modern Aesthetic UI:**
+  - Built with modular SCSS/SASS for scalable and clean styling.
+
+---
+
+## 🧠 Technologies
+
+- **React** – Modern component-based frontend architecture.
+- **JavaScript (ES6+)** – Logic for dynamic interactivity.
+- **CSS3 / SCSS / SASS** – Responsive and maintainable styling.
+- **Git** – Version control and collaboration.
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+Kebab-Project-React/
+├── public/            # Static public files
+├── src/
+│   ├── assets/        # Images and static assets
+│   ├── components/    # Reusable React components
+│   ├── pages/         # Different pages (Home, Menu, Cart, etc.)
+│   ├── styles/        # Global and modular SCSS styles
+│   └── App.js         # Main application entry point
+├── package.json       # Project metadata and dependencies
+└── README.md          # Project documentation
+```
+
+---
+
+## 🖼️ Screenshots
+
+[<img src="src/images/full-screen.png" width="80%"/>](src/images/full-screen.png)
+
+---
+
+## 🌍 Availability
+
+The project is deployed and available at:  
+[**https://kebab.dawidolko.pl**](https://kebab.dawidolko.pl)
+
+---
+
+## 📜 License
+
+The **Kebab House** project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♂️ Author
+
+Created by **Dawid Olko**  
+> Developed as part of the **Kebab House** web project.
+
+---
