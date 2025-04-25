@@ -42,7 +42,7 @@ npm start
 
 - **Food Services Section:**
   - Organized by categories with smooth navigation between them.
-  - Additional options like drinks, sauces, and combo meals.
+  - Additional options like drinks, sauces, and meals.
 
 - **Responsive Design:**
   - Fully optimized for mobile, tablet, and desktop browsing.
