@@ -143,5 +143,3 @@ Created by **Dawid Olko** - Developed as part of the **Kebab House** web project
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
-
-⭐ **Found this helpful?** Give it a star and share with fellow React developers!
