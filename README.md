@@ -121,7 +121,7 @@ The project is deployed and available at: **[https://kebab.dawidolko.pl](https:/
 
 ## 🖼️ Preview
 
-[<img src="src/images/full-screen.png" width="80%" alt="Kebab House Website Preview"/>](src/images/full-screen.png)
+[<img src="src/images/full-screen.webp" width="80%" alt="Kebab House Website Preview"/>](src/images/full-screen.webp)
 
 ## 🤝 Contributing
 

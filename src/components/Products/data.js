@@ -1,9 +1,9 @@
-import product1 from "../../images/product-1.jpg";
-import product2 from "../../images/product-2.jpg";
-import product3 from "../../images/product-3.jpg";
-import sweet1 from "../../images/sweet3.jpg";
-import sweet2 from "../../images/sweet-2.jpg";
-import sweet3 from "../../images/sweet-3.jpg";
+import product1 from "../../images/product-1.webp";
+import product2 from "../../images/product-2.webp";
+import product3 from "../../images/product-3.webp";
+import sweet1 from "../../images/sweet3.webp";
+import sweet2 from "../../images/sweet-2.webp";
+import sweet3 from "../../images/sweet-3.webp";
 
 export const productData = [
   {

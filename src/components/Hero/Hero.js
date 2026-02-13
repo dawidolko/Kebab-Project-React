@@ -1,12 +1,9 @@
 import styled from "styled-components";
-import ImgBg from "../../images/kebab-3.png";
+import ImgBg from "../../images/kebab-3.webp";
 
 export const HeroContainer = styled.div`
-  background: linear-gradient(
-      to right,
-      rgba(30, 20, 10, 0.7),
-      rgba(80, 40, 20, 0.1)
-    ),
+  background:
+    linear-gradient(to right, rgba(30, 20, 10, 0.7), rgba(80, 40, 20, 0.1)),
     url(${ImgBg});
   height: 100vh;
   width: 100%;

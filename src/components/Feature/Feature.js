@@ -1,12 +1,9 @@
 import styled from "styled-components";
-import FeaturePic from "../../images/featured3.jpg";
+import FeaturePic from "../../images/featured3.webp";
 
 export const FeatureContainer = styled.div`
-  background: linear-gradient(
-      to right,
-      rgba(30, 20, 10, 0.7),
-      rgba(80, 40, 20, 0.1)
-    ),
+  background:
+    linear-gradient(to right, rgba(30, 20, 10, 0.7), rgba(80, 40, 20, 0.1)),
     url(${FeaturePic});
   height: 100vh;
   max-height: 500px;
