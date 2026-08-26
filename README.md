@@ -2,26 +2,65 @@
 
 > 🚀 **Modern Restaurant Website with React** - Build responsive online menu and shopping experiences for food service
 
-## 📋 Description
-
 Welcome to the **Kebab-Project-React** repository! This project showcases a fully responsive, modern online menu and shopping experience for a kebab restaurant. The focus is on intuitive design, dynamic interactions, and seamless cart functionality using cutting-edge React technologies.
 
 This repository demonstrates best practices in React development for food service applications, featuring interactive menu systems, shopping cart functionality, and modern restaurant website design patterns.
 
-## 📁 Repository Structure
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=black)
+![SASS](https://img.shields.io/badge/SASS-SCSS-CC6699?logo=sass&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-```
-Kebab-Project-React/
-├── 📁 public/           # Static public files and assets
-├── 📁 src/
-│   ├── 🖼️ assets/       # Images and static assets
-│   ├── ⚛️ components/   # Reusable React components
-│   ├── 📄 pages/        # Different pages (Home, Menu, Cart)
-│   ├── 🎨 styles/       # Global and modular SCSS styles
-│   └── 💻 App.js        # Main application entry point
-├── 📦 package.json      # Project metadata and dependencies
-└── 📖 README.md         # Project documentation
-```
+---
+
+## 🎯 Key Features
+
+### **🍽️ Interactive Menu Shop**
+
+- Browse wide selection of kebab meals: wraps, plates, vegetarian options, sides, and extras
+- Detailed descriptions, prices, and high-quality images for each meal
+- Dynamic cart with real-time updates and seamless checkout experience
+
+### **🥙 Food Services Section**
+
+- Organized by categories with smooth navigation
+- Additional options including drinks, sauces, and combo meals
+- Category-based filtering for easy menu browsing
+
+### **📱 Responsive Design**
+
+- Fully optimized for mobile, tablet, and desktop browsing
+- Modern React responsive patterns and mobile-first design
+
+### **⚡ Dynamic Frontend Experience**
+
+- Advanced category filters and search functionality
+- Interactive buttons and smooth animations for better user engagement
+- Real-time cart updates and product management
+
+### **🎨 Modern Aesthetic UI**
+
+- Component-based React structure for scalability
+- Modular SCSS/SASS architecture for maintainable styling
+- Clean, modern design focused on food presentation
+
+---
+
+## 🖼️ Screenshots
+
+[<img src="src/images/full-screen.webp" width="80%" alt="Kebab House Website Preview"/>](src/images/full-screen.webp)
+
+---
+
+## 🛠️ Technology Stack
+
+- **React** - Component-based frontend framework
+- **JavaScript (ES6+)** - Modern JavaScript features and logic
+- **CSS3/SCSS/SASS** - Advanced styling and responsive design
+- **Git** - Version control and collaboration
+- **NPM** - Package management and dependency handling
+
+---
 
 ## 🚀 Getting Started
 
@@ -45,6 +84,8 @@ npm start
 ```
 
 - Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
+
+---
 
 ## ⚙️ System Requirements
 
@@ -76,52 +117,30 @@ npm start
 - **React Scripts** for build configuration
 - **SCSS/SASS** for styling
 
-## ✨ Key Features
+---
 
-### **🍽️ Interactive Menu Shop**
+## 📁 Project Structure
 
-- Browse wide selection of kebab meals: wraps, plates, vegetarian options, sides, and extras
-- Detailed descriptions, prices, and high-quality images for each meal
-- Dynamic cart with real-time updates and seamless checkout experience
+```
+Kebab-Project-React/
+├── 📁 public/           # Static public files and assets
+├── 📁 src/
+│   ├── 🖼️ assets/       # Images and static assets
+│   ├── ⚛️ components/   # Reusable React components
+│   ├── 📄 pages/        # Different pages (Home, Menu, Cart)
+│   ├── 🎨 styles/       # Global and modular SCSS styles
+│   └── 💻 App.js        # Main application entry point
+├── 📦 package.json      # Project metadata and dependencies
+└── 📖 README.md         # Project documentation
+```
 
-### **🥙 Food Services Section**
-
-- Organized by categories with smooth navigation
-- Additional options including drinks, sauces, and combo meals
-- Category-based filtering for easy menu browsing
-
-### **📱 Responsive Design**
-
-- Fully optimized for mobile, tablet, and desktop browsing
-- Modern React responsive patterns and mobile-first design
-
-### **⚡ Dynamic Frontend Experience**
-
-- Advanced category filters and search functionality
-- Interactive buttons and smooth animations for better user engagement
-- Real-time cart updates and product management
-
-### **🎨 Modern Aesthetic UI**
-
-- Component-based React structure for scalability
-- Modular SCSS/SASS architecture for maintainable styling
-- Clean, modern design focused on food presentation
-
-## 🛠️ Technologies Used
-
-- **React** - Component-based frontend framework
-- **JavaScript (ES6+)** - Modern JavaScript features and logic
-- **CSS3/SCSS/SASS** - Advanced styling and responsive design
-- **Git** - Version control and collaboration
-- **NPM** - Package management and dependency handling
+---
 
 ## 🌍 Live Demo
 
 The project is deployed and available at: **[https://kebab.dawidolko.pl](https://kebab.dawidolko.pl)**
 
-## 🖼️ Preview
-
-[<img src="src/images/full-screen.webp" width="80%" alt="Kebab House Website Preview"/>](src/images/full-screen.webp)
+---
 
 ## 🤝 Contributing
 
@@ -134,12 +153,15 @@ Contributions are highly welcomed! Here's how you can help:
 
 Feel free to open issues or reach out through GitHub for any questions or suggestions.
 
-## 👨‍💻 Author
-
-Created by **Dawid Olko** - Developed as part of the **Kebab House** web project.
+---
 
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
+
+## 👨‍💻 Author
+
+Created by **Dawid Olko** - Developed as part of the **Kebab House** web project.
+
