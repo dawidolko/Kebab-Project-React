@@ -5,9 +5,7 @@
     <link rel="icon" type="image/webp" href="%PUBLIC_URL%/logo192.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app" />
+    <meta name="description" content="Modern kebab restaurant website with an interactive menu, category filtering and a live shopping cart. Built with React and SCSS." />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.webp" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -29,6 +27,34 @@
       rel="stylesheet" />
 
     <title>Kebab App</title>
+  
+    <!-- Canonical URL: tells search engines which address is authoritative
+         when the same page is reachable through more than one URL. -->
+    <link rel="canonical" href="https://kebab.dawidolko.pl/" />
+
+    <!-- Open Graph / Twitter: controls how the page renders when shared. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kebab.dawidolko.pl/" />
+    <meta property="og:title" content="Kebab App" />
+    <meta property="og:description" content="Modern kebab restaurant website with an interactive menu, category filtering and a live shopping cart. Built with React and SCSS." />
+    <meta property="og:site_name" content="Kebab House" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kebab App" />
+    <meta name="twitter:description" content="Modern kebab restaurant website with an interactive menu, category filtering and a live shopping cart. Built with React and SCSS." />
+
+    <!-- Structured data: lets search engines describe the site in results
+         rather than guessing from the page text. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Kebab House",
+        "url": "https://kebab.dawidolko.pl",
+        "description": "Modern kebab restaurant website with an interactive menu, category filtering and a live shopping cart. Built with React and SCSS.",
+        "author": { "@type": "Person", "name": "Dawid Olko", "url": "https://dawidolko.pl" }
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
