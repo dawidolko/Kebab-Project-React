@@ -15,7 +15,14 @@ function App() {
       <GlobalStyle />
       {/* First focusable element: lets a keyboard user jump the navigation and
           land straight on the menu. */}
-      <a className="skip-link" href="#main-content">
+      <a className="skip-link" href="#main-content"
+        onClick={(event) => {
+          event.preventDefault();
+          const main = document.getElementById("main-content");
+          if (!main) return;
+          main.focus();
+          main.scrollIntoView({ behavior: "smooth", block: "start" });
+        }}>
         Skip to main content
       </a>
       <Hero />
