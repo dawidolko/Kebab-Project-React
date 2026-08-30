@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { NavLink as Link } from "react-router-dom";
 import { FaUtensils } from "react-icons/fa";
 
 export const Nav = styled.nav`
@@ -10,7 +9,7 @@ export const Nav = styled.nav`
   font-weight: 700;
 `;
 
-export const NavLink = styled(Link)`
+export const NavLink = styled.a`
   color: #fff;
   font-size: 2rem;
   display: flex;

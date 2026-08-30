@@ -11,10 +11,17 @@ function App() {
   return (
     <Router>
       <GlobalStyle />
+      {/* First focusable element: lets a keyboard user jump the navigation and
+          land straight on the menu. */}
+      <a className="skip-link" href="#main-content">
+        Skip to main content
+      </a>
       <Hero />
-      <Products heading="Choose your favorite" data={productData} />
-      <Feature />
-      <Products heading="Sweet Treats for You" data={productDataTwo} />
+      <main id="main-content" tabIndex={-1}>
+        <Products id="menu" heading="Choose your favorite" data={productData} />
+        <Feature />
+        <Products id="desserts" heading="Sweet Treats for You" data={productDataTwo} />
+      </main>
       <Footer />
     </Router>
   );

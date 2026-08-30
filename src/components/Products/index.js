@@ -12,9 +12,9 @@ import {
   ProductButton,
 } from "./Products";
 
-const Products = ({ heading, data }) => {
+const Products = ({ heading, data, id }) => {
   return (
-    <ProductsContainer>
+    <ProductsContainer id={id}>
       <ProductsHeading>{heading}</ProductsHeading>
       <ProductWrapper>
         {data.map((product, index) => {
@@ -25,7 +25,9 @@ const Products = ({ heading, data }) => {
                 <ProductTitle>{product.name}</ProductTitle>
                 <ProductDesc>{product.desc}</ProductDesc>
                 <ProductPrice>{product.price}</ProductPrice>
-                <ProductButton>{product.button}</ProductButton>
+                <ProductButton type="button" aria-label={`${product.button}: ${product.name}`}>
+                  {product.button}
+                </ProductButton>
               </ProductInfo>
             </ProductCard>
           );

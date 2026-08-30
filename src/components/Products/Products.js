@@ -28,7 +28,8 @@ export const ProductImg = styled.img`
   box-shadow: 8px 8px #d2691e;
 `;
 
-export const ProductsHeading = styled.h1`
+/* A section heading, not the page title — the hero owns the single h1. */
+export const ProductsHeading = styled.h2`
   font-size: clamp(2rem, 2.5vw, 3rem);
   text-align: center;
   margin-bottom: 5rem;

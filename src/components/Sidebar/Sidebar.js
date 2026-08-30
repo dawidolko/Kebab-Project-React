@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 
 export const SidebarContainer = styled.aside`
@@ -45,7 +44,9 @@ export const SidebarMenu = styled.div`
   }
 `;
 
-export const SidebarLink = styled(Link)`
+/* A same-page anchor rather than a router Link: these entries jump to a
+   section of this page, which react-router would treat as a route change. */
+export const SidebarLink = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,7 +68,7 @@ export const SideBtnWrap = styled.div`
   justify-content: center;
 `;
 
-export const SidebarRoute = styled(Link)`
+export const SidebarRoute = styled.a`
   background: #d2691e;
   white-space: nowrap;
   padding: 16px 64px;
