@@ -6,10 +6,12 @@ import Products from "./components/Products";
 import { productData, productDataTwo } from "./components/Products/data";
 import Feature from "./components/Feature";
 import Footer from "./components/Footer";
+import { CartProvider } from "./context/CartContext";
 
 function App() {
   return (
     <Router>
+      <CartProvider>
       <GlobalStyle />
       {/* First focusable element: lets a keyboard user jump the navigation and
           land straight on the menu. */}
@@ -23,6 +25,7 @@ function App() {
         <Products id="desserts" heading="Sweet Treats for You" data={productDataTwo} />
       </main>
       <Footer />
+      </CartProvider>
     </Router>
   );
 }
