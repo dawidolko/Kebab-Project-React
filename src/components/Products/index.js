@@ -23,7 +23,7 @@ const Products = ({ heading, data, id }) => {
         {data.map((product, index) => {
           return (
             <ProductCard key={index}>
-              <ProductImg src={product.img} alt={product.alt} />
+              <ProductImg src={product.img} alt={product.alt} width="300" height="300" loading="lazy" />
               <ProductInfo>
                 <ProductTitle>{product.name}</ProductTitle>
                 <ProductDesc>{product.desc}</ProductDesc>

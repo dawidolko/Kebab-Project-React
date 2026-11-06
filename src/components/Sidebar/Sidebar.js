@@ -69,7 +69,7 @@ export const SideBtnWrap = styled.div`
 `;
 
 export const SidebarRoute = styled.a`
-  background: #d2691e;
+  background: #b4581a;
   white-space: nowrap;
   padding: 16px 64px;
   color: #fff;

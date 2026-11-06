@@ -18,10 +18,10 @@ const Hero = () => {
   };
 
   return (
-    <HeroContainer>
+    <HeroContainer data-hero>
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <HeroContent>
+      <HeroContent as="section" aria-label="Introduction">
         <HeroItems>
           <HeroH1>Greatest Kebab Ever</HeroH1>
           <HeroP>Ready in 20 minutes</HeroP>

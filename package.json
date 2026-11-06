@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build && node scripts/prerender.mjs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "publish": "gh-pages -d build"
@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "playwright-core": "^1.56.1"
   }
 }

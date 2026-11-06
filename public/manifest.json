@@ -1,24 +1,19 @@
 {
-  "short_name": "Kebab App",
-  "name": "Create React App Sample",
+  "short_name": "Kebab House",
+  "name": "Kebab House",
   "icons": [
     {
-      "src": "logo192.webp",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/webp"
-    },
-    {
-      "src": "logo192.webp",
+      "src": "/logo192.webp",
       "type": "image/webp",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.webp",
+      "src": "/logo512.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

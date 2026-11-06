@@ -34,7 +34,7 @@ export const FeatureButton = styled.button`
   font-size: 1.4rem;
   padding: 0.6rem 3rem;
   border: none;
-  background: #d2691e; /* Spicy kebab brown */
+  background: #b4581a; /* Spicy kebab brown */
   color: #fff;
   transition: 0.3s ease-out;
   border-radius: 4px;

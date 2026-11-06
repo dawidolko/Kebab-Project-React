@@ -2,73 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/webp" href="%PUBLIC_URL%/logo192.webp" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Modern kebab restaurant website with an interactive menu, category filtering and a live shopping cart. Built with React and SCSS." />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.webp" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;900&display=swap"
-      rel="stylesheet" />
-
-    <title>Kebab App</title>
-  
-    <!-- Canonical URL: tells search engines which address is authoritative
-         when the same page is reachable through more than one URL. -->
-    <link rel="canonical" href="https://kebab.dawidolko.pl/" />
-
-    <!-- Open Graph / Twitter: controls how the page renders when shared. -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://kebab.dawidolko.pl/" />
-    <meta property="og:title" content="Kebab App" />
-    <meta property="og:description" content="Modern kebab restaurant website with an interactive menu, category filtering and a live shopping cart. Built with React and SCSS." />
-    <meta property="og:site_name" content="Kebab House" />
-    <meta property="og:locale" content="en_US" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Kebab App" />
-    <meta name="twitter:description" content="Modern kebab restaurant website with an interactive menu, category filtering and a live shopping cart. Built with React and SCSS." />
-
-    <!-- Structured data: lets search engines describe the site in results
-         rather than guessing from the page text. -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Restaurant",
-        "name": "Kebab House",
-        "url": "https://kebab.dawidolko.pl",
-        "description": "Modern kebab restaurant website with an interactive menu, category filtering and a live shopping cart. Built with React and SCSS.",
-        "author": { "@type": "Person", "name": "Dawid Olko", "url": "https://dawidolko.pl" }
+    <meta name="author" content="Dawid Olko" />
+    <title>Kebab House | Interactive Menu and Live Shopping Cart</title>
+    <meta
+      name="description"
+      content="Kebab House is a demo restaurant website with an interactive kebab menu, desserts, category filtering and a live shopping cart, built with React." />
+    <link rel="icon" type="image/webp" href="/logo192.webp" />
+    <link rel="apple-touch-icon" href="/logo192.webp" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preload" href="/fonts/kanit-900-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <style>
+      @font-face {
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/kanit-400-latin.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
       }
-    </script>
+      @font-face {
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/fonts/kanit-900-latin.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
     <script src="/a11y/a11y-panel.js" data-accent="#1d4ed8" defer></script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>You need to enable JavaScript to order from the menu.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

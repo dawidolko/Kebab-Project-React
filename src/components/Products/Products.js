@@ -26,6 +26,7 @@ export const ProductImg = styled.img`
   min-width: 300px;
   max-width: 100%;
   box-shadow: 8px 8px #d2691e;
+  object-fit: cover;
 `;
 
 /* A section heading, not the page title — the hero owns the single h1. */
@@ -66,7 +67,7 @@ export const ProductButton = styled.button`
   font-size: 1rem;
   padding: 1rem 4rem;
   border: none;
-  background: #d2691e;
+  background: #b4581a;
   color: #fff;
   transition: 0.2s ease-out;
   border-radius: 4px;

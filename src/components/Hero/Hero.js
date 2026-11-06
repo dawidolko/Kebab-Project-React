@@ -55,7 +55,7 @@ export const HeroBtn = styled.button`
   font-size: 1.4rem;
   padding: 1rem 4rem;
   border: none;
-  background: #d2691e; /* Spicy brown */
+  background: #b4581a; /* Spicy brown */
   color: #fff;
   transition: 0.3s ease-out;
   border-radius: 4px;

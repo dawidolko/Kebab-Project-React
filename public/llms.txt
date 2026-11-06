@@ -1,0 +1,11 @@
+# Kebab House
+
+> Kebab House is a demonstration restaurant website built with React and styled-components by Dawid Olko. It has one page with an interactive menu, desserts, a dish of the day and a live shopping cart.
+
+## Pages
+
+- [Home](https://kebab.dawidolko.pl/): the menu, desserts and cart
+
+## Author
+
+- [Dawid Olko](https://dawidolko.pl): Fullstack / AI Developer, author of this project
