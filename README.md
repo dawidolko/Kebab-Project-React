@@ -113,7 +113,7 @@ Kebab-Project-React/
 
 ## 📄 License
 
-MIT © [Dawid Olko](https://dawidolko.pl)
+MIT © [Dawid Olko](https://dawidolko.pl) Fonts and other third-party material keep their own licences, listed in [CREDITS.md](CREDITS.md).
 
 ---
 
