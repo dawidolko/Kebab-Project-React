@@ -40,6 +40,14 @@ The site is a static build published to GitHub Pages, styled with styled-compone
 
 ---
 
+## 🎬 Demo
+
+<p align="center">
+  <img src="docs/readme/demo.webp" alt="Kebab: a short scroll through the live site" width="80%">
+</p>
+
+---
+
 ## 🛠️ Technology Stack
 
 | Technology            | Version | Role                                                       |
