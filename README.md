@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://kebab.dawidolko.pl/"><img src="docs/readme/banner.webp" alt="Kebab: frontend. The cart is in one place" width="100%"></a>
+</p>
+
 # Kebab
 
 > 🥙 **The cart is in one place** — a restaurant menu in React where the badge, the buttons and the preview panel all read the same reducer
@@ -12,7 +16,7 @@ The site is a static build published to GitHub Pages, styled with styled-compone
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-deployed-222222?logo=githubpages&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**Live:** [kebab.dawidolko.pl](https://kebab.dawidolko.pl)
+**[Live site](https://kebab.dawidolko.pl/)** · [Screenshots](#️-screenshots) · [Getting started](#-getting-started)
 
 ---
 
@@ -24,6 +28,15 @@ The site is a static build published to GitHub Pages, styled with styled-compone
 - **Menu driven by data** — products come from a data file, so extending the menu means editing a list, not writing components.
 - **Styled with styled-components** — styles travel with the component they belong to; the global reset lives in `GlobalStyle.js`.
 - **Responsive from the start** — the menu is a grid on a desktop and a single column on a phone, with the cart becoming a full-height panel.
+
+---
+
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="docs/readme/desktop.webp" alt="Kebab on a desktop screen" width="74%">
+  <img src="docs/readme/mobile.webp" alt="Kebab on a phone" width="22%">
+</p>
 
 ---
 
@@ -69,6 +82,12 @@ npm run publish # deploy build/ to GitHub Pages
 
 ---
 
+## ♿ Accessibility
+
+An accessibility panel in the corner of every page changes text size, contrast, font and motion, and remembers the choice on the device. It sits on top of the markup and does not replace accessible markup.
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -95,3 +114,11 @@ Kebab-Project-React/
 ## 📄 License
 
 MIT © [Dawid Olko](https://dawidolko.pl)
+
+---
+
+## 👨‍💻 Author
+
+**Dawid Olko** · Fullstack / AI Developer
+
+[Portfolio](https://olkodawid.dawidolko.pl) · [CV](https://cv.dawidolko.pl) · [LinkedIn](https://www.linkedin.com/in/dawidolko/) · [GitHub](https://github.com/dawidolko)
